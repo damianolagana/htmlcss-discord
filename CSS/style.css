@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.boxed{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* struttura header */
+header{
+    max-height: 580px;
+    background-color: #add8e6;
+}
+
+.flexHead{
+    display: flex;
+    justify-content: space-between;
+    background-color: #daa520;
+    max-width: 1200px;
+    height: 45px;
+        
+}
+
+/*  barra navigazione */
+
+#logo{
+    width: 240px;
+    border: 1px black dashed;
+    padding: 13px;
+
+}
+
+#link{
+    width: 720px;
+    text-align: center;
+    padding: 13px;
+    border: 1px black dashed;
+}
+
+#login{
+    width: 240px;
+    text-align: end;
+    padding: 13px;
+    border: 1px black dashed;
+}
+
+nav{
+    height: 80px;
+    padding-top: 10px;
+}
+
+/* blue box HEADER*/
+
+.flexgen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.Blueflex{
+    background-color: #00008b;
+    height: 500PX;
+}
+
+.pinkbanner{
+    background-color: #ee82ee;
+    height: 400px;
+    width: 900px;
+    border: 1px black dashed;
+}
+
+
+/* MAIN */
+/* .flexgen */
+
+.bluebox{
+    height: 500px;
+    width: 700px;
+    background-color: #1e90ff;
+    border: 1px black dashed;
+}
+
+.pinkbox{
+    height: 500px;
+    width: 500px;
+    background-color: #ffc0cb;
+    border: 1px black dashed;
+}
+
+.Gflex{
+    background-color: #d3d3d3;
+    flex-direction: row-reverse;
+
+}
+
+.Greenflex{
+    height: 1000px;
+    background-color: #d3d3d3;
+}
+
+#greenbox{
+    width: 1200px;
+    height: 900px;
+    background-color: #228b22;
+    border: 1px black dashed;
+}
+
+/* FOOTER */
+
+.blackbox1{
+    height: 630px;
+    background-color: #23272a;
+}
+
+#footpink{
+    height: 580px;
+    width: 360px;
+    background-color: #f08080;
+    border: 1px black dashed;
+}
+
+.footblue{
+    width: 210px;
+    height: 580px;
+    background-color: #20b2aa;
+    border: 1px white dashed;
+}
+
+/* footer 2 */
+
+.blackbox2{
+    height: 110px;
+    background-color: #23272a;
+    align-items: end;
+}
+
+#turchesebox{
+    height: 80px;
+    width: 1200px;
+    background-color: #7fffd4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    border: 1px black dashed;
+    padding: 5px;
+}
