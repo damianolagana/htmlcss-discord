@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .boxed{
@@ -9,27 +10,42 @@
     margin: auto;
 }
 
+button{
+    padding: 12px;
+    border-radius: 16px;
+    border: none;
+}
+
+
 /* struttura header */
 header{
     max-height: 580px;
-    background-color: #add8e6;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 .flexHead{
     display: flex;
     justify-content: space-between;
-    background-color: #daa520;
     max-width: 1200px;
     height: 45px;
-        
+    align-items: center;    
 }
 
 /*  barra navigazione */
 
+#navlink{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul#navlink li{
+    display: inline;
+}
+
 #logo{
     width: 240px;
-    border: 1px black dashed;
-    padding: 13px;
+    padding: 6px;
 
 }
 
@@ -37,19 +53,23 @@ header{
     width: 720px;
     text-align: center;
     padding: 13px;
-    border: 1px black dashed;
 }
 
 #login{
     width: 240px;
     text-align: end;
     padding: 13px;
-    border: 1px black dashed;
+}
+
+#accedi{
+    font-weight: bold;
+    font-size: small;
 }
 
 nav{
     height: 80px;
     padding-top: 10px;
+    color: white;
 }
 
 /* blue box HEADER*/
@@ -62,17 +82,47 @@ nav{
 }
 
 .Blueflex{
-    background-color: #00008b;
     height: 500PX;
 }
 
 .pinkbanner{
-    background-color: #ee82ee;
+    background-color: transparent;
     height: 400px;
     width: 900px;
-    border: 1px black dashed;
 }
 
+#titolo{
+    font-size: 57px;
+    color: white;
+    text-align: center;
+}
+
+#phead{
+    color: white;
+    text-align: center;
+    line-height: 26px;
+    padding: 38px 150px 10px 150px;
+}
+
+/* bottoni header */
+.buttonbox{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#buttonMac{
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+
+#buttonbrowser{
+    font-size: 16px;
+    color: white;
+    background-color: #23272a;
+}
 
 /* MAIN */
 /* .flexgen */
@@ -148,7 +198,3 @@ nav{
     align-items: center;
 }
 
-button{
-    border: 1px black dashed;
-    padding: 5px;
-}
