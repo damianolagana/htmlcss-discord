@@ -219,11 +219,17 @@ nav{
 .blackbox1{
     height: 630px;
     background-color: #23272a;
+    padding-top: 80px;
 }
 
 #footpink{
-    height: 580px;
+    height: 550px;
     width: 360px;
+
+}
+
+.border{
+    border-bottom: 2px solid #8ea1e1;
 }
 
 #footcolumn1{
@@ -267,11 +273,21 @@ i{
     height: 20px;
 }
 
-.footblue{
+.footlist{
     width: 210px;
     height: 580px;
-    background-color: #20b2aa;
-    border: 1px white dashed;
+    padding-top: 18px;
+    height: 550px;
+}
+
+.list{
+    list-style: none;
+    line-height: 33px;
+    color: white;
+}
+
+.h3footer{
+    color: #7289da;
 }
 
 /* footer 2 */
