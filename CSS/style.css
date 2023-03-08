@@ -21,6 +21,16 @@ button{
     cursor: pointer;
 }
 
+.onde{
+    opacity: 0.039;
+    background-image: url(../img/wave.svg);
+    height: 100px;
+}
+
+.ondebottom{
+    transform: rotate(180deg)
+}
+
 
 /* struttura header */
 header{
@@ -167,14 +177,14 @@ nav{
 
 
 .Gflex{
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
     flex-direction: row-reverse;
 
 }
 
 .Greenflex{
     height: 1000px;
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
 }
 
 #greenbox{
@@ -288,6 +298,7 @@ i{
 
 .h3footer{
     color: #7289da;
+    margin-bottom: 10px;
 }
 
 /* footer 2 */
