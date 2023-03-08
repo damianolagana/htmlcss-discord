@@ -301,10 +301,19 @@ i{
 #turchesebox{
     height: 80px;
     width: 1200px;
-    background-color: #7fffd4;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
+#registrati{
+    color: white;
+    background: #8ea1e1;
+    border: none;
+}
+
+#logobutton{
+    border: none;
+    background: none;
+}
